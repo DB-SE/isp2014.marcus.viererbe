@@ -1,0 +1,41 @@
+Implementierte Features:
+------------------------
+
+	In dem Projekt wurden zwei Features mittels Laufzeitvariabilität implementiert.
+	
+	Das erste Feature ist das "LookAndFeel", welches das Erscheinungsbild der GUI beeinflusst.
+	Hierfür ist die Klasse "TLookAndFeel" zuständig, welche mithilfe des Singleton-Pattern umgesetzt wurde.
+	Das Feature "LookAndFeel" kann über das Argument "LookAndFeel" gewählt werden.
+	
+	Das zweite Feature ist der "Verlauf". Bei aktivierter Funktion wird ein separates Ausgabefeld über dem Hauptdisplay sichtbar, 
+	welches die letzten Eingaben anzeigt. Die Klasse "TStdView" ist für das Feature zuständig. 
+	Das Feature "Verlauf" kann über das Argument "History" gewählt werden.
+
+Konfigurationen:
+----------------
+
+[0]	Aufruf:		java calc
+	
+	Ergebnis:	Feature - "LookAndFeel": Menüfunktion "Ansicht" ist nicht verfügbar.
+				
+				Feature - "Verlauf": Es ist keine separate Anzeige für den Verlauf der aktuellen Eingaben sichtbar.
+				
+[1]	Aufruf:		java calc LookAndFeel
+
+	Ergebnis:	Konfiguration: "Standard"
+				
+				Feature - "LookAndFeel": Menüfunktion "Ansicht" ist sichtbar und funktioniert ordnungsgemäß.
+				
+				Feature - "Verlauf": Es ist keine separate Anzeige für den Verlauf der aktuellen Eingaben sichtbar.
+				
+[1]	Aufruf:		java calc History
+
+	Ergebnis:	Feature - "LookAndFeel": Menüfunktion "Ansicht" ist nicht verfügbar.
+				
+				Feature - "Verlauf": Separate Anzeige für den Verlauf der aktuellen Eingaben ist sichtbar und funktioniert ordnungsgemäß.
+				
+[2] Aufruf:		java calc LookAndFeel History
+
+	Ergebnis:	Feature - "LookAndFeel": Menüfunktion "Ansicht" ist sichtbar und funktioniert ordnungsgemäß.
+				
+				Feature - "Verlauf": Separate Anzeige für den Verlauf der aktuellen Eingaben ist sichtbar und funktioniert ordnungsgemäß.
