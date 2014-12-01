@@ -8,12 +8,12 @@
 					verschiedene Produktlinien in bezug zur Nutzergruppe 
 					erzeugt werden.
 				</description>
-				<feature mandatory="true" name="Basis Operationen">
+				<feature abstract="true" mandatory="true" name="Basis_Operationen">
 					<description>
 						Basis Operationen sind +, -, *, /
 					</description>
 				</feature>
-				<alt mandatory="true" name="LookAndFeel">
+				<alt abstract="true" mandatory="true" name="LookAndFeel">
 					<description>
 						Visuelle Erscheinung des Taschenrechners.
 					</description>
@@ -22,7 +22,7 @@
 							Umgebung wird vom OS bestimmt.
 						</description>
 					</feature>
-					<feature mandatory="true" name="UI-Manager">
+					<feature mandatory="true" name="UI_Manager">
 						<description>
 							Umgebung kann vom Benutzer auf die 
 							installierten User Interfaces vom Betriebssystem 
@@ -30,7 +30,7 @@
 						</description>
 					</feature>
 				</alt>
-				<or name="View">
+				<or abstract="true" name="View">
 					<description>
 						Bestimmt die Ansicht des Taschenrechners, entweder für Wissenschaftliche Zwecke oder für Programmierer zum umrechnen der Zahlensysteme.
 					</description>
