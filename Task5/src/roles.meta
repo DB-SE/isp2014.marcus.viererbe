@@ -1,0 +1,154 @@
+{
+	"features" : [
+		"BasisOperationen",
+		"UIManager"
+	],
+	"roles": {
+		"main": {
+			"BasisOperationen": "main",
+			"Wissenschaftlich": "main"
+		},
+		"onNumber": {
+			"BasisOperationen": "onNumber",
+			"Programmierer": "onNumber"
+		},
+		"onOperation": {
+			"BasisOperationen": "onOperation",
+			"Programmierer": "onOperation"
+		},
+		"getCalculation": {
+			"BasisOperationen": "getCalculation",
+			"Programmierer": "getCalculation"
+		},
+		"calculate": {
+			"BasisOperationen": "calculate",
+			"Fakultaet": "calculate",
+			"Modulo": "calculate",
+			"Logarithmus": "calculate",
+			"Cosinus": "calculate",
+			"Sinus": "calculate",
+			"Tangens": "calculate",
+			"Konstanten": "calculate",
+			"Power": "calculate"
+		},
+		"getOperation": {
+			"BasisOperationen": "getOperation",
+			"Fakultaet": "getOperation",
+			"Modulo": "getOperation",
+			"Logarithmus": "getOperation",
+			"Cosinus": "getOperation",
+			"Sinus": "getOperation",
+			"Tangens": "getOperation",
+			"Konstanten": "getOperation",
+			"Power": "getOperation"
+		},
+		"isOperation": {
+			"BasisOperationen": "isOperation",
+			"Fakultaet": "isOperation",
+			"Modulo": "isOperation",
+			"Logarithmus": "isOperation",
+			"Cosinus": "isOperation",
+			"Sinus": "isOperation",
+			"Tangens": "isOperation",
+			"Konstanten": "isOperation",
+			"Power": "isOperation"
+		},
+		"getViewName": {
+			"BasisOperationen": "getViewName",
+			"Wissenschaftlich": "getViewName",
+			"Programmierer": "getViewName",
+			"Datumsberechnungen": "getViewName"
+		},
+		"setViews": {
+			"BasisOperationen": "setViews__wrappee__BasisOperationen",
+			"UIManager": "setViews"
+		},
+		"setVisible": {
+			"BasisOperationen": "setVisible"
+		},
+		"showMessage": {
+			"BasisOperationen": "showMessage"
+		},
+		"addOperation": {
+			"BasisOperationen": "addOperation"
+		},
+		"IsNumber": {
+			"BasisOperationen": "IsNumber"
+		},
+		"getNumber": {
+			"BasisOperationen": "getNumber"
+		},
+		"setGUI": {
+			"BasisOperationen": "setGUI__wrappee__BasisOperationen",
+			"UIManager": "setGUI",
+			"Verlauf": "setGUI__wrappee__BasisOperationen"
+		},
+		"getExtendedPanel": {
+			"BasisOperationen": "getExtendedPanel",
+			"Wissenschaftlich": "getExtendedPanel",
+			"Programmierer": "getExtendedPanel"
+		},
+		"actionPerformed": {
+			"BasisOperationen": "actionPerformed"
+		},
+		"bnClose_Click": {
+			"BasisOperationen": "bnClose_Click"
+		},
+		"append": {
+			"BasisOperationen": "append"
+		},
+		"historyAppend": {
+			"BasisOperationen": "historyAppend"
+		},
+		"onInputNumber": {
+			"BasisOperationen": "onInputNumber"
+		},
+		"onInputOperation": {
+			"BasisOperationen": "onInputOperation",
+			"Programmierer": "onInputOperation"
+		},
+		"getView": {
+			"BasisOperationen": "getView"
+		},
+		"getInstance": {
+			"UIManager": "getInstance"
+		},
+		"getInstalledLookAndFeels": {
+			"UIManager": "getInstalledLookAndFeels"
+		},
+		"showStyle": {
+			"UIManager": "showStyle"
+		},
+		"getIterator": {
+			"UIManager": "getIterator"
+		},
+		"remove": {
+			"UIManager": "remove"
+		},
+		"next": {
+			"UIManager": "next"
+		},
+		"hasNext": {
+			"UIManager": "hasNext"
+		},
+		"fak": {
+			"Fakultaet": "fak"
+		},
+		"getScientificView": {
+			"BasisOperationen": "getScientificView",
+			"Wissenschaftlich": "getScientificView"
+		},
+		"getProgrammerView": {
+			"BasisOperationen": "getProgrammerView",
+			"Programmierer": "getProgrammerView"
+		},
+		"getDateView": {
+			"BasisOperationen": "getDateView",
+			"Datumsberechnungen": "getDateView"
+		},
+		"setButtonAsActive": {
+			"Programmierer": "setButtonAsActive"
+		}
+	}
+
+}
